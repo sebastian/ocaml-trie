@@ -1,0 +1,13 @@
+OASISFormat: 0.2
+Name:        ocaml-trie
+Version:     0.0.1-pre
+Synopsis:    Implementation of the trie datastructure
+Authors:     Sebastian Probst Eide
+License:     LGPL-2.1 with OCaml linking exception
+Plugins:     DevFiles (0.2)
+
+Executable trie
+  Path:       .
+  BuildTools: ocamlbuild
+  MainIs:     trie.ml
+  
